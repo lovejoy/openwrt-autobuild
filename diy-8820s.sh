@@ -18,6 +18,7 @@
 
 # Modify Default IP
 sed -i 's/192.168.1.1/192.168.3.1/g' package/base-files/files/bin/config_generate
+git clone --depth=1 https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 # Modify default hostname
 # sed -i 's/ImmortalWrt/Railgun/g' package/base-files/files/bin/config_generate
