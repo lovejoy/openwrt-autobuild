@@ -2,7 +2,7 @@ name: zte-8820s-lede-hwnat
 
 push:
   branches:
-    - master
+    - main
   paths:
     - '8820s.config'
 on:
